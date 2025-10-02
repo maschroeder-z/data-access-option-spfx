@@ -1,4 +1,4 @@
-# SharePoint - Modern Link Presenter
+# SharePoint - Use different options to access SharePoint data
 ## Summary
 
 This sample SPFx web part demonstrates multiple ways to read data from a SharePoint list/library. It includes side‑by‑side implementations using the native Fetch API, `SPHttpClient`, Microsoft Graph, and PnPjs. Configure `SITEID`, `SOURCELIBRARY`, and `SOURCELIBRARYID` in `src/Core/DataAccessOptions.ts`, then run and compare each approach with a single click in the UI.
