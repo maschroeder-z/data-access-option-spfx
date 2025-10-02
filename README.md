@@ -56,12 +56,13 @@ This sample SPFx web part demonstrates multiple ways to read data from a SharePo
 > Check your currenr Node version and installed SPFx-Framework version.
 
 ## Features
-- Automatic creation of a list of stored links.
-- Linked content can be opened directly in a dialog, making it easy to integrate additional information.
-- Built-in search function for quickly finding links.
-- Various tile effects on mouseover.
-- Background colors can be specified for each link.
-- Automatically ensures readable text by automatically setting a contrasting color for the text color.
+ - Compare multiple data access methods side-by-side: Fetch, SPHttpClient, Microsoft Graph, and PnPjs
+ - One-click buttons in the web part UI to invoke each option
+ - Minimal setup: configure `SITEID`, `SOURCELIBRARY`, `SOURCELIBRARYID` in `src/Core/DataAccessOptions.ts`
+ - Shows JSON results directly in the UI for quick verification
+ - Works in local workbench and on SharePoint pages
+ - Uses TypeScript and SPFx 1.21 with React 17
+ - Example queries scoped to top item for fast responses
 
 ## Help
 Please contact me for further help or information about the sample.
