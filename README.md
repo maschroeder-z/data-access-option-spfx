@@ -49,16 +49,16 @@ This sample SPFx web part demonstrates multiple ways to read data from a SharePo
 
 - Clone this repository
 - Ensure that you are at the solution folder
+- Configure `SITEID`, `SOURCELIBRARY`, `SOURCELIBRARYID` in `src/Core/DataAccessOptions.ts`
 - in the command-line run:
   - **npm install**
   - **gulp serve**
 
-> Check your currenr Node version and installed SPFx-Framework version.
+> Check your current Node version and installed SPFx-Framework version.
 
 ## Features
  - Compare multiple data access methods side-by-side: Fetch, SPHttpClient, Microsoft Graph, and PnPjs
  - One-click buttons in the web part UI to invoke each option
- - Minimal setup: configure `SITEID`, `SOURCELIBRARY`, `SOURCELIBRARYID` in `src/Core/DataAccessOptions.ts`
  - Shows JSON results directly in the UI for quick verification
  - Works in local workbench and on SharePoint pages
  - Uses TypeScript and SPFx 1.21 with React 17
